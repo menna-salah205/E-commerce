@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Casual</title>
+</head>
+<body>
+
+<!-- ====================navbar================ -->
+
+<nav class="navbar navbar-expand-lg bg-white w-100 px-5 py-3">
+    <div class="container-fluid">
+        <a class="navbar-brand fs-2 fw-bold text-black" href="index.html">SHOP.CO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="shop.html" target="_blank">T-shirt</a></li>
+                        <li><a class="dropdown-item" href="casual.html" target="_blank">Casual</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank">On Sale</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#new-arrivals">New Arrivals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#brands">Brands</a>
+                </li>
+            </ul>
+            <form class="search d-flex position-relative mx-auto" role="search">
+                <button class="button-search border-0 bg-transparent" type="submit"><i class="fa-solid fa-magnifying-glass fs-4 text-secondary"></i></button>
+                <input class="form-control bg-secondary-subtle rounded-5 px-5 py-3" type="search" placeholder="Search for products..." aria-label="Search"/>
+            </form>
+            <div>
+                <a href="cart.html" target="_blank"><i class="fa-solid fa-cart-shopping text-dark fs-5 me-2"></i></a>
+                <a href=""><i class="fa-regular fa-circle-user text-dark fs-5"></i></a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- ===========Breadcrumb============ -->
+
+<nav class="px-5 py-4">
+    <a href="" class="text-decoration-none text-secondary">Home <i class="fa-solid fa-angle-right"></i></a>
+    <a href="" class="text-decoration-none text-black">Casual</a>
+</nav>
+
+<!--=============Casual=============== -->
+
+<section class="px-5 pb-5 d-flex align-items-start gap-5">
+
+<!-- =====Filters===== -->
+
+    <div class="w-25 p-3 border rounded-4">
+        <div class="d-flex justify-content-between align-items-center border-bottom pb-3">
+            <a href="" class="text-decoration-none text-black fw-bold fs-5">Filters</a>
+            <button class="border-0 bg-transparent"><i class="fa-solid fa-sliders fs-5 text-secondary"></i></button>
+        </div>
+
+        <div class="border-bottom py-3 d-flex flex-column gap-3">
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="" class="text-decoration-none text-secondary">T-shirts</a>
+                <button class="border-0 bg-transparent"><i class="fa-solid fa-angle-right text-secondary"></i></button>
+            </div>
+            
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="" class="text-decoration-none text-secondary">Shorts</a>
+                <button class="border-0 bg-transparent"><i class="fa-solid fa-angle-right text-secondary"></i></button>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="" class="text-decoration-none text-secondary">Shirts</a>
+                <button class="border-0 bg-transparent"><i class="fa-solid fa-angle-right text-secondary"></i></button>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="" class="text-decoration-none text-secondary">Hoodie</a>
+                <button class="border-0 bg-transparent"><i class="fa-solid fa-angle-right text-secondary"></i></button>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="" class="text-decoration-none text-secondary">Jeans</a>
+                <button class="border-0 bg-transparent"><i class="fa-solid fa-angle-right text-secondary"></i></button>
+            </div>
+        </div>
+
+        <div class="border-bottom py-3">
+            <div class="d-flex justify-content-between align-items-center pb-3">
+                <a href="" class="text-decoration-none text-black fw-bold fs-5">Price</a>
+                <button class="border-0 bg-transparent"><i class="fa-solid fa-chevron-up text-black"></i></button>
+            </div>
+
+            <div>
+                <form action="#" method="post">
+                    <input type="range" min="0" max="300" step="50" value="50" class="range">
+                </form>
+                <div class="pt-2 px-4 d-flex align-items-center justify-content-between">
+                    <span class="text-black">$50</span>
+                    <span class="text-black">$200</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-bottom py-3">
+            <div class="d-flex justify-content-between align-items-center pb-3">
+                <a href="" class="text-decoration-none text-black fw-bold fs-5">Colors</a>
+                <button class="border-0 bg-transparent"><i class="fa-solid fa-chevron-up text-black"></i></button>
+            </div> 
+            <div class=" d-flex flex-column align-items-center gap-3">
+                <div class="row align-items-center justify-content-center gap-3">
+                    <input type="radio" class="btn-check" name="options-base" id="option4" autocomplete="off">
+                    <label class="btn circle p-3 color-option" style="background-color: #00C12B;" for="option4"></label>
+
+                    <input type="radio" class="btn-check" name="options-base" id="option5" autocomplete="off">
+                    <label class="btn circle p-3 color-option" style="background-color: #F50606;" for="option5"></label>
+
+                    <input type="radio" class="btn-check" name="options-base" id="option6" autocomplete="off">
+                    <label class="btn circle p-3 color-option" style="background-color: #F5DD06;" for="option6"></label>
+
+                    <input type="radio" class="btn-check" name="options-base" id="option7" autocomplete="off">
+                    <label class="btn circle p-3 color-option" style="background-color: #F57906;" for="option7"></label>
+
+                    <input type="radio" class="btn-check" name="options-base" id="option8" autocomplete="off">
+                    <label class="btn circle p-3 color-option" style="background-color: #06CAF5;" for="option8"></label>
+
+                    <input type="radio" class="btn-check" name="options-base" id="option9" autocomplete="off">
+                    <label class="btn circle p-3 color-option" style="background-color: #063AF5;" for="option9"></label>
+
+                    <input type="radio" class="btn-check" name="options-base" id="option10" autocomplete="off">
+                    <label class="btn circle p-3 color-option" style="background-color: #7D06F5;" for="option10"></label>
+
+                    <input type="radio" class="btn-check" name="options-base" id="option11" autocomplete="off">
+                    <label class="btn circle p-3 color-option" style="background-color: #F506A4;" for="option11"></label>
+
+                    <input type="radio" class="btn-check" name="options-base" id="option12" autocomplete="off">
+                    <label class="btn circle p-3 color-option" style="background-color: #e8e8e8;" for="option12"></label>
+
+                    <input type="radio" class="btn-check" name="options-base" id="option13" autocomplete="off">
+                    <label class="btn circle p-3 color-option" style="background-color: #1e1e1e;" for="option13"></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-bottom py-3">
+            <div class="d-flex justify-content-between align-items-center pb-3">
+                <a href="" class="text-decoration-none text-black fw-bold fs-5">Size</a>
+                <button class="border-0 bg-transparent"><i class="fa-solid fa-chevron-up text-black"></i></button>
+            </div> 
+            <div role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                <label class="btn btn-outline-dark btn-light rounded-pill border-0 px-4 py-2 m-1" for="btnradio1">XX-Small</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-dark btn-light rounded-pill border-0 px-4 py-2 m-1" for="btnradio2">X-Small</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                <label class="btn btn-outline-dark btn-light rounded-pill border-0 px-4 py-2 m-1" for="btnradio3">Small</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                <label class="btn btn-outline-dark btn-light rounded-pill border-0 px-4 py-2 m-1" for="btnradio4">Medium</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+                <label class="btn btn-outline-dark btn-light rounded-pill border-0 px-4 py-2 m-1" for="btnradio5">Large</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off">
+                <label class="btn btn-outline-dark btn-light rounded-pill border-0 px-4 py-2 m-1" for="btnradio6">X-Large</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio7" autocomplete="off">
+                <label class="btn btn-outline-dark btn-light rounded-pill border-0 px-4 py-2 m-1" for="btnradio7">XX-Large</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio8" autocomplete="off">
+                <label class="btn btn-outline-dark btn-light rounded-pill border-0 px-4 py-2 m-1" for="btnradio8">3X-Large</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio9" autocomplete="off">
+                <label class="btn btn-outline-dark btn-light rounded-pill border-0 px-4 py-2 m-1" for="btnradio9">4X-Large</label>
+            </div>
+        </div>
+
+        <div class="pt-3">
+            <div class="d-flex justify-content-between align-items-center pb-3">
+                <a href="" class="text-decoration-none text-black fw-bold fs-5">Dress Style</a>
+                <button class="border-0 bg-transparent"><i class="fa-solid fa-chevron-up text-black"></i></button>
+            </div> 
+
+            <div>
+                <div class="py-3 d-flex flex-column gap-3">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a href="" class="text-decoration-none text-secondary">Casual</a>
+                    <button class="border-0 bg-transparent"><i class="fa-solid fa-angle-right text-secondary"></i></button>
+                </div>
+                
+                <div class="d-flex align-items-center justify-content-between">
+                    <a href="" class="text-decoration-none text-secondary">Formal</a>
+                    <button class="border-0 bg-transparent"><i class="fa-solid fa-angle-right text-secondary"></i></button>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-between">
+                    <a href="" class="text-decoration-none text-secondary">Party</a>
+                    <button class="border-0 bg-transparent"><i class="fa-solid fa-angle-right text-secondary"></i></button>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-between">
+                    <a href="" class="text-decoration-none text-secondary">Gym</a>
+                    <button class="border-0 bg-transparent"><i class="fa-solid fa-angle-right text-secondary"></i></button>
+                </div>
+                <button class="border-0 w-100 py-2 rounded-5 bg-black text-white mt-3">Apply Filter</button>
+            </div>
+            </div>
+        </div>
+    </div>
+<!--=====Casual===== -->
+    <div class="w-75 col">
+        <div class="d-flex align-items-center justify-content-between">
+            <h3 class="text-black fw-bold">Casual</h3>
+            <div class="d-flex align-items-center gap-3">
+                <span class="text-secondary">Showing 1-10 of 100 Products</span>
+                <button class="border-0 bg-transparent text-black"><span class="text-secondary">Sort by: </span>Most Popular <i class="fa-solid fa-chevron-down"></i></button>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column align-items-center gap-4 border-bottom py-3">
+            <div class="d-flex align-items-start justify-content-center gap-3 flex-wrap">
+                <div class="card">
+                    <img src="photos/image 8 (2).png" alt="" class="rounded-4">
+                    <h3 class="fw-bold text-black fs-5 pt-4">Gradient Graphic T-shirt</h3>
+                    <div>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star-half text-warning"></i><span class="text-black ms-2">3.5/<span class="text-secondary">5</span></span>
+                    </div>
+                    <h3 class="text-black pt-2">$145</h3>
+                </div>
+        
+                <div class="card">
+                    <img src="photos/image 9 (2).png" alt="" class="rounded-4">
+                    <h3 class="fw-bold text-black fs-5 pt-4">Polo with Tipping Details</h3>
+                    <div>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star-half text-warning"></i></i><span class="text-black ms-2">4.5/<span class="text-secondary">5</span></span>
+                    </div>
+                    <h3 class="text-black pt-2">$180</h3>
+                </div>
+
+                <div class="card">
+                    <img src="photos/image 10 (2).png" alt="" class="rounded-4">
+                    <h3 class="fw-bold text-black fs-5 pt-4">Black Striped T-shirt</h3>
+                    <div>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i><span class="text-black ms-2">5.0/<span class="text-secondary">5</span></span>
+                    </div>
+                    <div class="d-flex gap-3 align-items-center">
+                        <h3 class="text-black pt-2">$120</h3>
+                        <h3 class="text-secondary text-decoration-line-through">$150</h3>
+                        <span class="text-danger bg-danger-subtle rounded-5 px-3 py-1">-30%</span>
+                    </div>
+                </div>
+            </div>
+            <!-- == -->
+            <div class="d-flex align-items-start justify-content-center gap-3 flex-wrap">
+                <div class="card casual-card-4">
+                    <img src="photos/image 8.png" alt="" class="rounded-4">
+                    <h3 class="fw-bold text-black fs-5 pt-4">SKINNY FIT JEANS</h3>
+                    <div>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star-half text-warning"></i><span class="text-black ms-2">3.5/<span class="text-secondary">5</span></span>
+                    </div>
+                    <div class="d-flex gap-3 align-items-center">
+                        <h3 class="text-black pt-2">$240</h3>
+                        <h3 class="text-secondary text-decoration-line-through">$260</h3>
+                        <span class="text-danger bg-danger-subtle rounded-5 px-3 py-1">-20%</span>
+                    </div>
+                </div>
+            
+                <div class="card">
+                    <img src="photos/image 9.png" alt="" class="rounded-4">
+                    <h3 class="fw-bold text-black fs-5 pt-4">CHECKERED SHIRT</h3>
+                    <div>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star-half text-warning"></i></i><span class="text-black ms-2">4.5/<span class="text-secondary">5</span></span>
+                    </div>
+                    <h3 class="text-black pt-2">$180</h3>
+                </div>
+
+                <div class="card">
+                    <img src="photos/image 10.png" alt="" class="rounded-4">
+                    <h3 class="fw-bold text-black fs-5 pt-4">SLEEVE STRIPED T-SHIRT</h3>
+                    <div>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star-half text-warning"></i><span class="text-black ms-2">4.5/<span class="text-secondary">5</span></span>
+                    </div>
+                    <div class="d-flex gap-3 align-items-center">
+                        <h3 class="text-black pt-2">$130</h3>
+                        <h3 class="text-secondary text-decoration-line-through">$160</h3>
+                        <span class="text-danger bg-danger-subtle rounded-5 px-3 py-1">-30%</span>
+                    </div>
+                </div>
+            </div>
+            <!-- == -->
+            <div class="d-flex align-items-start justify-content-center gap-3 flex-wrap">
+                <div class="card casual-card-7">
+                    <img src="photos/image 7 (1).png" alt="" class="rounded-4">
+                    <h3 class="fw-bold text-black fs-5 pt-4">VERTICAL STRIPED SHIRT</h3>
+                    <div>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i><span class="text-black ms-2">5.0/<span class="text-secondary">5</span></span>
+                    </div>
+                    <div class="d-flex gap-3 align-items-center">
+                        <h3 class="text-black pt-2">$212</h3>
+                        <h3 class="text-secondary text-decoration-line-through">$232</h3>
+                        <span class="text-danger bg-danger-subtle rounded-5 px-3 py-1">-20%</span>
+                    </div>
+                </div>
+            
+                <div class="card">
+                    <img src="photos/image 8 (1).png" alt="" class="rounded-4">
+                    <h3 class="fw-bold text-black fs-5 pt-4">COURAGE GRAPHIC T-SHIRT</h3>
+                    <div>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i></i><span class="text-black ms-2">4.0/<span class="text-secondary">5</span></span>
+                    </div>
+                    <h3 class="text-black pt-2">$145</h3>
+                </div>
+
+                <div class="card">
+                    <img src="photos/image 9 (1).png" alt="" class="rounded-4">
+                    <h3 class="fw-bold text-black fs-5 pt-4">LOOSE FIT BERMUDA SHORTS</h3>
+                    <div>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i><span class="text-black ms-2">3.0/<span class="text-secondary">5</span></span>
+                    </div>
+                    <h3 class="text-black pt-2">$80</h3>
+                </div>
+            </div>
+        </div>
+        <!-- ============== -->
+        <nav aria-label="Page navigation example" class="pt-5">
+        <ul class="pagination w-100 d-flex justify-content-evenly">
+            <li class="page-item"><a class="page-link text-black" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link border-0 text-black" href="#">1</a></li>
+            <li class="page-item"><a class="page-link border-0 text-black" href="#">2</a></li>
+            <li class="page-item"><a class="page-link border-0 text-black" href="#">3</a></li>
+            <li class="page-item"><a class="page-link border-0 text-black" href="#">...</a></li>
+            <li class="page-item"><a class="page-link border-0 text-black" href="#">8</a></li>
+            <li class="page-item"><a class="page-link border-0 text-black" href="#">9</a></li>
+            <li class="page-item"><a class="page-link border-0 text-black" href="#">10</a></li>
+            <li class="page-item"><a class="page-link text-black" href="#">Next</a></li>
+        </ul>
+        </nav>
+</section>
+
+<!-- ==================footer================= -->
+
+<footer class="bg-secondary-subtle position-relative">
+    <div class="footer-1 bg-black rounded-4 p-5 d-flex align-items-center justify-content-between position-absolute top-0 start-50 translate-middle">
+        <h1 class="text-white fw-bold">STAY UPTO DATE ABOUT <br> OUR LATEST OFFERS</h1>
+        <form action="" method="post" class="footer-form d-flex flex-column gap-3">
+            <input type="email" placeholder="Enter your email address" required class="bg-white border-0 px-5 py-3 rounded-5">
+            <button class="btn-subscribe border-0 px-3 py-3 rounded-5">Subscribe to Newsletter</button>
+        </form>
+    </div>
+<div class="container">
+    <div class="row align-items-start gap-5">
+    <div class="col-3">
+        <h2 class="text-black fw-bold">SHOP.CO</h2>
+        <p class="text-secondary">We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+        <div class="links pt-4">
+            <a class="w-25 h-25 p-2 rounded-5" href=""><i class="fa-brands fa-twitter"></i></a>
+            <a class="w-25 h-25 p-2 rounded-5" href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="w-25 h-25 p-2 rounded-5" href=""><i class="fa-brands fa-instagram"></i></a>
+            <a class="w-25 h-25 p-2 rounded-5" href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column justify-content-start col">
+        <h5 class="text-black">Company</h5>
+        <div class="d-flex flex-column justify-content-start gap-3 pt-3">
+            <a class="text-decoration-none text-secondary" href="">About</a>
+            <a class="text-decoration-none text-secondary" href="">Features</a>
+            <a class="text-decoration-none text-secondary" href="">Works</a>
+            <a class="text-decoration-none text-secondary" href="">Career</a>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column justify-content-start col">
+        <h5 class="text-black">Help</h5>
+        <div class="d-flex flex-column justify-content-start gap-3 pt-3">
+            <a class="text-decoration-none text-secondary" href="">Customer Support</a>
+            <a class="text-decoration-none text-secondary" href="">Delivery Details</a>
+            <a class="text-decoration-none text-secondary" href="">Terms & Conditions</a>
+            <a class="text-decoration-none text-secondary" href="">Privacy Policy</a>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column justify-content-start col">
+        <h5 class="text-black">FAQ</h5>
+        <div class="d-flex flex-column justify-content-start gap-3 pt-3">
+            <a class="text-decoration-none text-secondary" href="">Account</a>
+            <a class="text-decoration-none text-secondary" href="">Manage Deliveries</a>
+            <a class="text-decoration-none text-secondary" href="">Orders</a>
+            <a class="text-decoration-none text-secondary" href="">Payments</a>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column justify-content-start col">
+        <h5 class="text-black">Resources</h5>
+        <div class="d-flex flex-column justify-content-start gap-3 pt-3">
+            <a class="text-decoration-none text-secondary" href="">Free eBooks</a>
+            <a class="text-decoration-none text-secondary" href="">Development Tutorial</a>
+            <a class="text-decoration-none text-secondary" href="">How to - Blog</a>
+            <a class="text-decoration-none text-secondary" href="">Youtube Playlist</a>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="d-flex justify-content-between align-items-center mt-4">
+    <small class="text-secondary">Shop.co © 2000-2023, All Rights Reserved</small>
+    <div class=" d-flex gap-3 align-items-center">
+        <a class="" href=""><i class="fa-brands fa-cc-visa text-black fs-3"></i></a>
+        <a class="" href=""><i class="fa-brands fa-cc-mastercard text-black fs-3"></i></a>
+        <a class="" href=""><i class="fa-brands fa-paypal text-black fs-3"></i></a>
+        <a class="" href=""><i class="fa-brands fa-apple-pay text-black fs-1"></i></a>
+        <a class="" href=""><i class="fa-brands fa-google-pay text-black fs-1"></i></a>
+    </div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

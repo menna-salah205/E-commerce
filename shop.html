@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Shop</title>
+</head>
+<body>
+
+<!-- ====================navbar================ -->
+
+<nav class="navbar navbar-expand-lg bg-white w-100 px-5 py-3">
+    <div class="container-fluid">
+        <a class="navbar-brand fs-2 fw-bold text-black" href="index.html">SHOP.CO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="shop.html" target="_blank">T-shirt</a></li>
+                        <li><a class="dropdown-item" href="casual.html" target="_blank">Casual</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank">On Sale</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#new-arrivals">New Arrivals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#brands">Brands</a>
+                </li>
+            </ul>
+            <form class="search d-flex position-relative mx-auto" role="search">
+                <button class="button-search border-0 bg-transparent" type="submit"><i class="fa-solid fa-magnifying-glass fs-4 text-secondary"></i></button>
+                <input class="form-control bg-secondary-subtle rounded-5 px-5 py-3" type="search" placeholder="Search for products..." aria-label="Search"/>
+            </form>
+            <div>
+                <a href="cart.html" target="_blank"><i class="fa-solid fa-cart-shopping text-dark fs-5 me-2"></i></a>
+                <a href=""><i class="fa-regular fa-circle-user text-dark fs-5"></i></a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- ===========Breadcrumb============ -->
+
+    <nav class="px-5 py-4">
+        <a href="" class="text-decoration-none text-secondary">Home <i class="fa-solid fa-angle-right"></i></a>
+        <a href="" class="text-decoration-none text-secondary">Shop <i class="fa-solid fa-angle-right"></i></a>
+        <a href="" class="text-decoration-none text-secondary">Men <i class="fa-solid fa-angle-right"></i></a>
+        <a href="" class="text-decoration-none text-black">T-shirt</a>
+    </nav>
+<!-- ==============ONE LIFE GRAPHIC T-SHIRT============== -->
+
+<section class="px-5 row ">
+<div class="d-flex gap-3 align-items-center col">
+    <div class="t-shirt-1 d-flex flex-column gap-3">
+        <img src="photos/image 1.png" class="rounded-4" alt="">
+        <img src="photos/image 5.png" alt="">
+        <img src="photos/image 6.png" alt="">
+    </div>
+
+    <div class="t-shirt-2">
+        <img src="photos/image 1.png" alt="">
+    </div>
+</div>
+
+<div class="px-4 col">
+    <h2 class="text-black fw-bold pt-4 fs-1">ONE LIFE GRAPHIC T-SHIRT</h2>
+    <div>
+        <i class="fa-solid fa-star text-warning"></i>
+        <i class="fa-solid fa-star text-warning"></i>
+        <i class="fa-solid fa-star text-warning"></i>
+        <i class="fa-solid fa-star text-warning"></i>
+        <i class="fa-solid fa-star-half text-warning"></i><span class="text-black">4.5/<span class="text-secondary">5</span></span>
+    </div>
+
+    <div class="d-flex gap-3 align-items-center">
+        <h3 class="text-black pt-2">$260</h3>
+        <h3 class="text-secondary text-decoration-line-through">$300</h3>
+        <span class="text-danger bg-danger-subtle rounded-5 px-3 py-1">-40%</span>
+    </div>
+    
+    <p class="text-secondary">This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.</p>
+    <div class="border-top pt-3 pb-4">
+        <p class="text-secondary">Select Colors</p>
+
+        <div class=""> 
+
+            <input type="radio" class="btn-check" name="options-base" id="option1" autocomplete="off">
+            <label class="btn circle p-3 color-option" style="background-color: #4F4631;" for="option1"></label>
+
+            <input type="radio" class="btn-check" name="options-base" id="option2" autocomplete="off">
+            <label class="btn circle p-3 color-option" style="background-color: #314F4A;" for="option2"></label>
+
+            <input type="radio" class="btn-check" name="options-base" id="option3" autocomplete="off">
+            <label class="btn circle p-3 color-option" style="background-color: #31344F;" for="option3"></label>
+
+        </div>
+    </div>
+
+    <div class="border-top py-3">
+        <p class="text-secondary">Choose Size</p>
+        <div role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-dark btn-light rounded-pill border-0 px-4 py-2" for="btnradio1">Small</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-dark btn-light rounded-pill border-0 px-4 py-2" for="btnradio2">Medium</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-dark btn-light rounded-pill border-0 px-4 py-2" for="btnradio3">Large</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+            <label class="btn btn-outline-dark btn-light rounded-pill border-0 px-4 py-2" for="btnradio4">X-Large</label>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between align-items-center border-top py-3">
+        <div class="counter d-flex align-items-center justify-content-center bg-secondary-subtle rounded-pill w-25 py-2 bottom-0 end-0">
+            <button class="down border-0 bg-transparent" onClick='decreaseCount(event, this)'><i class="fa-solid fa-minus"></i></button>
+            <input type="text" value="1" class="bg-transparent text-center border-0 w-25">
+            <button class="up border-0 bg-transparent" onClick='increaseCount(event, this)'><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <button class="add-to-cart border-0 bg-black text-white px-4 py-2 rounded-5">Add to Cart</button>
+    </div>
+</div>
+</section>
+
+<!-- ===============Tabs================ -->
+
+<nav class="px-5 pt-5 d-flex justify-content-center align-items-center">
+    <a href="" class="text-decoration-none text-secondary border-bottom border-2 w-50 p-3 text-center">Product Details</a>
+    <a href="" class="text-decoration-none text-black border-bottom border-2 border-black w-50 p-3 text-center">Rating & Reviews</a>
+    <a href="" class="text-decoration-none text-secondary border-bottom border-2 w-50 p-3 text-center">FAQs</a>
+</nav>
+
+<!-- ===================all-reviews================ -->
+
+<div class="px-5 py-4 d-flex align-items-center justify-content-between">
+    <div class="d-flex align-items-center gap-2">
+        <h3 class="fw-bold text-black">All Reviews</h3>
+        <span class="text-secondary">(451)</span>
+    </div>
+    
+    <div>
+        <button class="border-0 bg-secondary-subtle p-2 rounded-5 me-1"><i class="fa-solid fa-sliders fs-5"></i></button>
+        <button class="border-0 bg-secondary-subtle py-2 px-3 rounded-5 me-1">Latest<i class="fa-solid fa-chevron-down ms-2"></i></button>
+        <button class="border-0 bg-black text-white py-2 px-3 rounded-5">Write a Review</button>
+    </div>
+</div>
+
+<section class="px-5 d-flex flex-column align-items-center gap-5">
+    <div class="all-reviews">
+        <div class="p-4 border rounded-4">
+            <div class="d-flex align-items-center justify-content-between pb-2">
+                <div>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star-half text-warning"></i>
+                </div>
+                <i class="fa-solid fa-ellipsis text-secondary"></i>
+            </div>
+            <h4 class="text-black fw-bold">Samantha D. <i class="fa-solid fa-circle-check fs-5 text-success"></i></h4>
+            <p class="text-secondary">"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."</p>
+            <p class="text-secondary">Posted on August 14, 2023</p>
+        </div>
+
+        <div class="p-4 border rounded-4">
+            <div class="d-flex align-items-center justify-content-between pb-2">
+                <div>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <i class="fa-solid fa-ellipsis text-secondary"></i>
+            </div>
+            <h4 class="text-black fw-bold">Alex M. <i class="fa-solid fa-circle-check fs-5 text-success"></i></h4>
+            <p class="text-secondary">"The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me."</p>
+            <p class="text-secondary">Posted on August 15, 2023</p>
+        </div>
+
+        <div class="p-4 border rounded-4">
+            <div class="d-flex align-items-center justify-content-between pb-2">
+                <div>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star-half text-warning"></i>
+                </div>
+                <i class="fa-solid fa-ellipsis text-secondary"></i>
+            </div>
+            <h4 class="text-black fw-bold">Ethan R. <i class="fa-solid fa-circle-check fs-5 text-success"></i></h4>
+            <p class="text-secondary">"This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt."</p>
+            <p class="text-secondary">Posted on August 16, 2023</p>
+        </div>
+
+        <div class="p-4 border rounded-4">
+            <div class="d-flex align-items-center justify-content-between pb-2">
+                <div>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <i class="fa-solid fa-ellipsis text-secondary"></i>
+            </div>
+            <h4 class="text-black fw-bold">Olivia P. <i class="fa-solid fa-circle-check fs-5 text-success"></i></h4>
+            <p class="text-secondary">"As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It's evident that the designer poured their creativity into making this t-shirt stand out."</p>
+            <p class="text-secondary">Posted on August 17, 2023</p>
+        </div>
+
+        <div class="p-4 border rounded-4">
+            <div class="d-flex align-items-center justify-content-between pb-2">
+                <div>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                </div>
+                <i class="fa-solid fa-ellipsis text-secondary"></i>
+            </div>
+            <h4 class="text-black fw-bold">Liam K. <i class="fa-solid fa-circle-check fs-5 text-success"></i></h4>
+            <p class="text-secondary">"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion."</p>
+            <p class="text-secondary">Posted on August 18, 2023</p>
+        </div>
+
+        <div class="p-4 border rounded-4">
+            <div class="d-flex align-items-center justify-content-between pb-2">
+                <div>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star-half text-warning"></i>
+                </div>
+                <i class="fa-solid fa-ellipsis text-secondary"></i>
+            </div>
+            <h4 class="text-black fw-bold">Ava H. <i class="fa-solid fa-circle-check fs-5 text-success"></i></h4>
+            <p class="text-secondary">"I'm not just wearing a t-shirt; I'm wearing a piece of design philosophy. The intricate details and thoughtful layout of the design make this shirt a conversation starter."</p>
+            <p class="text-secondary">Posted on August 19, 2023</p>
+        </div>
+    </div>
+    <button class="btn btn-outline-secondary px-5 py-2 rounded-5 text-black border-secondary-subtle">Load More Reviews</button>
+</section>
+
+<!-- ==============YOU MIGHT ALSO LIKE================= -->
+
+<section class="top-salling my-5 d-flex flex-column align-items-center">
+    <h2 class="text-black fw-bold pt-4 fs-1">YOU MIGHT ALSO LIKE</h2>
+    <div class="p-5 row align-items-top">
+
+    <div class="card">
+        <img src="photos/image 7 (2).png" alt="" class="rounded-4">
+        <h3 class="fw-bold text-black fs-5 pt-4">Polo with Contrast Trims</h3>
+        <div>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i><span class="text-black ms-2">4.0/<span class="text-secondary">5</span></span>
+        </div>
+        <div class="d-flex gap-3 align-items-center">
+            <h3 class="text-black pt-2">$212</h3>
+            <h3 class="text-secondary text-decoration-line-through">$242</h3>
+            <span class="text-danger bg-danger-subtle rounded-5 px-3 py-1">-20%</span>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="photos/image 8 (2).png" alt="" class="rounded-4">
+        <h3 class="fw-bold text-black fs-5 pt-4">Gradient Graphic T-shirt</h3>
+        <div>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star-half text-warning"></i></i><span class="text-black ms-2">3.5/<span class="text-secondary">5</span></span>
+        </div>
+        <h3 class="text-black pt-2">$145</h3>
+    </div>
+
+    <div class="card">
+        <img src="photos/image 9 (2).png" alt="" class="rounded-4">
+        <h3 class="fw-bold text-black fs-5 pt-4">Polo with Tipping Details</h3>
+        <div>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star-half text-warning"></i><span class="text-black ms-2">4.5/<span class="text-secondary">5</span></span>
+        </div>
+        <h3 class="text-black pt-2">$180</h3>
+    </div>
+
+    <div class="card">
+        <img src="photos/image 10 (2).png" alt="" class="rounded-4">
+        <h3 class="fw-bold text-black fs-5 pt-4">Black Striped T-shirt</h3>
+        <div>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i><span class="text-black">5.0/<span class="text-secondary">5</span></span>
+        </div>
+        <div class="d-flex gap-3 align-items-center">
+            <h3 class="text-black pt-2">$120</h3>
+            <h3 class="text-secondary text-decoration-line-through">$150</h3>
+            <span class="text-danger bg-danger-subtle rounded-5 px-3 py-1">-30%</span>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- ==================footer================= -->
+
+<footer class="bg-secondary-subtle position-relative">
+    <div class="footer-1 bg-black rounded-4 p-5 d-flex align-items-center justify-content-between position-absolute top-0 start-50 translate-middle">
+        <h1 class="text-white fw-bold">STAY UPTO DATE ABOUT <br> OUR LATEST OFFERS</h1>
+        <form action="" method="post" class="footer-form d-flex flex-column gap-3">
+            <input type="email" placeholder="Enter your email address" required class="bg-white border-0 px-5 py-3 rounded-5">
+            <button class="btn-subscribe border-0 px-3 py-3 rounded-5">Subscribe to Newsletter</button>
+        </form>
+    </div>
+<div class="container">
+    <div class="row align-items-start gap-5">
+    <div class="col-3">
+        <h2 class="text-black fw-bold">SHOP.CO</h2>
+        <p class="text-secondary">We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+        <div class="links pt-4">
+            <a class="w-25 h-25 p-2 rounded-5" href=""><i class="fa-brands fa-twitter"></i></a>
+            <a class="w-25 h-25 p-2 rounded-5" href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="w-25 h-25 p-2 rounded-5" href=""><i class="fa-brands fa-instagram"></i></a>
+            <a class="w-25 h-25 p-2 rounded-5" href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column justify-content-start col">
+        <h5 class="text-black">Company</h5>
+        <div class="d-flex flex-column justify-content-start gap-3 pt-3">
+            <a class="text-decoration-none text-secondary" href="">About</a>
+            <a class="text-decoration-none text-secondary" href="">Features</a>
+            <a class="text-decoration-none text-secondary" href="">Works</a>
+            <a class="text-decoration-none text-secondary" href="">Career</a>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column justify-content-start col">
+        <h5 class="text-black">Help</h5>
+        <div class="d-flex flex-column justify-content-start gap-3 pt-3">
+            <a class="text-decoration-none text-secondary" href="">Customer Support</a>
+            <a class="text-decoration-none text-secondary" href="">Delivery Details</a>
+            <a class="text-decoration-none text-secondary" href="">Terms & Conditions</a>
+            <a class="text-decoration-none text-secondary" href="">Privacy Policy</a>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column justify-content-start col">
+        <h5 class="text-black">FAQ</h5>
+        <div class="d-flex flex-column justify-content-start gap-3 pt-3">
+            <a class="text-decoration-none text-secondary" href="">Account</a>
+            <a class="text-decoration-none text-secondary" href="">Manage Deliveries</a>
+            <a class="text-decoration-none text-secondary" href="">Orders</a>
+            <a class="text-decoration-none text-secondary" href="">Payments</a>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column justify-content-start col">
+        <h5 class="text-black">Resources</h5>
+        <div class="d-flex flex-column justify-content-start gap-3 pt-3">
+            <a class="text-decoration-none text-secondary" href="">Free eBooks</a>
+            <a class="text-decoration-none text-secondary" href="">Development Tutorial</a>
+            <a class="text-decoration-none text-secondary" href="">How to - Blog</a>
+            <a class="text-decoration-none text-secondary" href="">Youtube Playlist</a>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="d-flex justify-content-between align-items-center mt-4">
+    <small class="text-secondary">Shop.co © 2000-2023, All Rights Reserved</small>
+    <div class=" d-flex gap-3 align-items-center">
+        <a class="" href=""><i class="fa-brands fa-cc-visa text-black fs-3"></i></a>
+        <a class="" href=""><i class="fa-brands fa-cc-mastercard text-black fs-3"></i></a>
+        <a class="" href=""><i class="fa-brands fa-paypal text-black fs-3"></i></a>
+        <a class="" href=""><i class="fa-brands fa-apple-pay text-black fs-1"></i></a>
+        <a class="" href=""><i class="fa-brands fa-google-pay text-black fs-1"></i></a>
+    </div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
