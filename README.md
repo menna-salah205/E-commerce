@@ -6,5 +6,5 @@ A responsive web application crafted with care, featuring a clean and cute user 
 🔗 [https://menna-salah205.github.io/E-commerce]
 
 ## Tech Stack
-* **Frontend:** HTML5, CSS3, JavaScript (أو React.js لو المشروع ريأكت)
+* **Frontend:** HTML5, CSS3, JavaScript, Bootstrap
 * **Design Aesthetic:** Cute, pastel, and student-friendly layouts.
